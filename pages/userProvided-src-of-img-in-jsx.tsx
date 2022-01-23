@@ -23,8 +23,8 @@ const SecurityTests: NextPage<Props> = ({ serverSideSrc }) => {
 
   return (
     <div>
-      {`LINK TO GITHUB: `} <a href="https://github.com/Vanege/security-tests/blob/main/pages/userProvided-src-of-img-in-jsx.tsx" target="_blank">https://github.com/Vanege/security-tests/blob/main/pages/userProvided-src-of-img-in-jsx.tsx</a> <br />
-      {`LINK TO KITTEN: `} <a href="https://placekitten.com/400/400" target="_blank">https://placekitten.com/400/400</a> <br />
+      {`LINK TO GITHUB: `} <a href="https://github.com/Vanege/security-tests/blob/main/pages/userProvided-src-of-img-in-jsx.tsx" target="_blank" rel="noreferrer">https://github.com/Vanege/security-tests/blob/main/pages/userProvided-src-of-img-in-jsx.tsx</a> <br />
+      {`LINK TO KITTEN: `} <a href="https://placekitten.com/400/400" target="_blank" rel="noreferrer">https://placekitten.com/400/400</a> <br />
 
       <hr />
       SERVER-SIDE RENDERING <br />
